@@ -2,7 +2,7 @@ package com.portfolio.sk.entity;
 
 import jakarta.persistence.*;
 
-@Entity
+@Entity(name="app_user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
